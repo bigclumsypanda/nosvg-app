@@ -1,0 +1,39 @@
+NoSVG Proprietary Freeware License
+Version 1.0 — 2026
+
+Copyright © 2026 Andrii Plaksin. All rights reserved.
+
+1. Free of charge. The official NoSVG application is provided free
+   of charge.
+
+2. Grant. The copyright holder grants you a personal,
+   non-exclusive, non-transferable right to install and use the
+   official, unmodified NoSVG application, including use for
+   personal and commercial work.
+
+3. Your content. Assets, documents, and other content you create
+   with NoSVG belong to you. NoSVG claims no ownership over your
+   content merely because NoSVG was used to create it.
+
+4. Restrictions. You may not:
+   (a) sell NoSVG or charge for access to NoSVG;
+   (b) sublicense your rights under this license;
+   (c) rebrand NoSVG or pass it off as another product;
+   (d) distribute modified or repackaged builds of NoSVG;
+   (e) remove or obscure any copyright or license notice.
+   Reverse engineering is restricted except to the extent permitted
+   by applicable law.
+
+5. Free redistribution. You may redistribute exact, unmodified
+   copies of the official NoSVG application only if the copies
+   remain free of charge and keep all copyright and license
+   notices intact.
+
+6. Third-party software. NoSVG bundles third-party software that
+   is governed by its own licenses. See THIRD_PARTY_NOTICES.txt.
+
+7. As is. NoSVG is provided "as is", without warranty of any kind,
+   express or implied, including warranties of merchantability,
+   fitness for a particular purpose, and non-infringement. In no
+   event shall the copyright holder be liable for any claim,
+   damages, or other liability arising from the use of NoSVG.
