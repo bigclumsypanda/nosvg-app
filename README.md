@@ -5,7 +5,7 @@
 <h1 align="center">NoSVG</h1>
 
 <p align="center">
-  A desktop, AI-first SVG asset editor for Windows, macOS and Linux.<br>
+  A desktop, AI-first SVG generator and editor for Windows, macOS and Linux.<br>
   Free to download and use.
 </p>
 
@@ -44,13 +44,16 @@ the SVG it needs to.
 
 Get the latest version from the [Releases page](https://github.com/bigclumsypanda/nosvg-app/releases).
 
-| System                    | File                             |
-| ------------------------- | -------------------------------- |
-| Windows 10 / 11           | `NoSVG_<version>_x64-setup.exe`  |
-| macOS (Apple Silicon)     | `NoSVG_<version>_aarch64.dmg`    |
-| Linux — any distribution  | `NoSVG_<version>_amd64.AppImage` |
-| Linux — Debian / Ubuntu   | `NoSVG_<version>_amd64.deb`      |
-| Linux — Fedora / openSUSE | `NoSVG-<version>-1.x86_64.rpm`   |
+NoSVG is in beta: versions are plain numbers (for example `0.1.0`) and every
+beta file carries `Beta` in its name.
+
+| System                    | File                                  |
+| ------------------------- | ------------------------------------- |
+| Windows 10 / 11           | `NoSVG_<version>_Beta_x64-setup.exe`  |
+| macOS (Apple Silicon)     | `NoSVG_<version>_Beta_aarch64.dmg`    |
+| Linux — any distribution  | `NoSVG_<version>_Beta_amd64.AppImage` |
+| Linux — Debian / Ubuntu   | `NoSVG_<version>_Beta_amd64.deb`      |
+| Linux — Fedora / openSUSE | `NoSVG_<version>_Beta_x86_64.rpm`     |
 
 ## Installation
 
@@ -60,7 +63,7 @@ this is expected.
 
 ### Windows
 
-1. Run `NoSVG_<version>_x64-setup.exe`.
+1. Run `NoSVG_<version>_Beta_x64-setup.exe`.
 2. If Windows SmartScreen shows "Windows protected your PC", click
    **More info → Run anyway**.
 
@@ -98,7 +101,7 @@ sudo apt install ./NoSVG_*_amd64.deb
 Fedora / openSUSE:
 
 ```bash
-sudo dnf install ./NoSVG-*.x86_64.rpm
+sudo dnf install ./NoSVG_*_x86_64.rpm
 ```
 
 NoSVG needs WebKitGTK 4.1, available on Ubuntu 22.04, Debian 12, Fedora 36 and newer.
@@ -109,11 +112,11 @@ Every release includes a `SHA256SUMS` file. To check a file you downloaded:
 
 ```bash
 sha256sum --check --ignore-missing SHA256SUMS   # Linux
-shasum -a 256 NoSVG_<version>_aarch64.dmg       # macOS: compare with SHA256SUMS
+shasum -a 256 NoSVG_<version>_Beta_aarch64.dmg  # macOS: compare with SHA256SUMS
 ```
 
 On Windows (PowerShell), compare the output of
-`Get-FileHash NoSVG_<version>_x64-setup.exe` with the matching line in `SHA256SUMS`.
+`Get-FileHash NoSVG_<version>_Beta_x64-setup.exe` with the matching line in `SHA256SUMS`.
 
 ## Getting started
 
